@@ -1,0 +1,179 @@
+
+/* MediaQuery */
+
+@media (min-width:370px) and (max-width: 820px){
+
+ 
+    .nav-links 
+    {
+        background-color: #fff;
+        position: absolute;
+        flex-direction: column;
+        top: 10%;
+        right: 10%; 
+        padding: 2rem 3rem;
+      
+        opacity: 0;
+        transition: opacity .10s blink;
+    }
+
+    .navlist-active{
+        opacity: 1;
+        box-shadow:  4px 4px 15px #feced6;
+    }
+
+    .nav-links .navBtn{
+        padding: .85rem 2.5rem;
+    }
+
+    .humburger
+    {
+        display: block;
+        cursor: pointer;
+    }
+
+    .img-box
+    {
+        margin-top: 7%;
+        
+    }
+
+    .hero
+    {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-content
+    {
+        max-width: 100%;
+        padding: 2rem;
+        margin-top: 10%;
+    }
+
+    .hero-content h1
+    {
+        font-size: 1.7rem;
+    }
+
+    .btn-primary{
+        margin-right: .55rem;
+        padding: 1rem;
+    }
+
+    .skills-section
+    {
+        width: 100%;
+    }
+
+    .skill-container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills
+    {
+        width: 90%;
+        margin-bottom: 0rem;
+    }
+
+    .bg
+    {
+        margin-bottom: 3rem;
+    }
+
+    .about-img{
+        display: none;
+    }
+
+    .myInfo
+    {
+        width: 100%;
+        padding: 7rem 2rem 0;
+    }
+
+    .play
+    {
+        column-gap: .40rem;
+        margin-left: 0;
+    }
+
+    #Services
+    {
+        width: 100%;
+    }
+
+    .offer
+    {
+        width: 90%;
+        height: 300px;
+    }
+
+    .mobile-bg
+    {
+        margin-bottom: 5rem;
+    }
+
+    .Together
+    {
+        width: 100%;
+    }
+
+    .togetherStyling
+    {
+        display: none;
+    }
+
+    .work-content
+    {
+        width: 95%;
+        font-size: .85rem;
+    }
+    .work-content h2
+    {
+        font-size: 1.2rem;
+    }
+
+    #ContactForm
+    {
+        width: 90%;
+    }
+
+    .footerContainer
+    {
+        padding: 1rem;
+    }
+
+}
+
+@media (min-width:820px) and (max-width:1024px){
+
+    .hero{
+        height: auto;
+    }
+    .hero-content
+    {
+        max-width: 100%;
+        padding: 2rem;
+        margin-top: 10%;
+    }
+
+    .btn-primary
+    {
+        padding: .85rem .85rem ;
+    }
+
+    .play
+    {
+        column-gap: .40rem;
+    }
+
+    .Two
+    {
+        left: 70%;
+    }
+}
+
+
