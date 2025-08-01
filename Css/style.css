@@ -424,12 +424,16 @@ h4{
     transform: translatey(150%);
 }
 
-.projectOne
-{
-    background-image: url("../Assets/projectOne.png");
+.project {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.projectOne
+{
+    background-image: url("../Assets/projectOne.png");
+    
 }
 .projectTwo
 {
